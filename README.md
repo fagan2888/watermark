@@ -76,7 +76,7 @@ To get an overview of all available commands, type:
 
 ```
 %watermark [-a AUTHOR] [-d] [-n] [-t] [-i] [-z] [-u] [-c CUSTOM_TIME]
-               [-v] [-p PACKAGES] [-h] [-m] [-g] [-w]
+               [-v] [-p PACKAGES] [-h] [-m] [-g] [-w] [-iv]
 
 IPython magic function to print date/time stamps
 and various system information.
@@ -102,6 +102,7 @@ optional arguments:
 -g, --githash         prints current Git commit hash
 -r, --gitrepo         prints current Git remote address
 -w, --watermark       prints the current version of watermark
+-iv, --iversions      prints the name/version of all imported modules
 ```
 
 <br>
